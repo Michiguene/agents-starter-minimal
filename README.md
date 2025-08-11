@@ -64,3 +64,5 @@ agents-starter-minimal/
 - Conectar Supabase: crea la tabla `task_events` con RLS (ver README al final del archivo).
 - Añadir más agentes: copia `worker/implementer.js` y cambia la cola a `queue:tester`.
 - Llevar esto a GitHub: sube el repo y usa las plantillas de Issues para tus PRDs.
+
+Peque�o ajuste para disparar CI
