@@ -1,0 +1,23 @@
+# Node / deps
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Builds / coverage
+dist
+build
+coverage
+
+# Env (¡no subir claves!)
+.env
+.env.*
+!.env.example
+
+# SO / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.vercel/

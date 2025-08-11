@@ -1,0 +1,19 @@
+{
+  "name": "agents-starter-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node server/index.js",
+    "worker:implementer": "node worker/implementer.js",
+    "worker:tester": "node worker/tester.js",
+    "generate:prd": "node scripts/generate-from-prd.js --file templates/PRD.md --prefix FEAT"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "@upstash/redis": "^1.30.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "undici": "^6.19.8"
+  }
+}
